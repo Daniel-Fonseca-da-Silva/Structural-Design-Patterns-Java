@@ -1,37 +1,37 @@
 package br.com.cod3r.bridge.converter.employees;
 
 public abstract class Employee {
-	protected String name;
-	protected Integer age;
-	protected Double salary;
-	
-	public Employee(String name, Integer age, Double salary) {
-		this.name = name;
-		this.age = age;
-		this.salary = salary;
-	}
+    protected String name;
+    protected Integer age;
+    protected Double salary;
 
-	public String getName() {
-		return name;
-	}
+    public Employee(String name, Integer age, Double salary) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public Integer getAge() {
-		return age;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setAge(Integer age) {
-		this.age = age;
-	}
+    public Integer getAge() {
+        return age;
+    }
 
-	public Double getSalary() {
-		return salary;
-	}
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
-	public void setSalary(Double salary) {
-		this.salary = salary;
-	}
+    public Double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
 }
